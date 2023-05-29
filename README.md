@@ -6,5 +6,7 @@
 - yarn start
 
 ### expo link
-
 ![Screenshot](expo_link.svg)
+
+### apk
+see release
