@@ -62,7 +62,7 @@ export const bodyGenerator = (
 
   if (!launchStatus.launchSucc && launchStatus.launchFail) {
     body.query.success = {
-      "$in":[true]
+      "$in":[false]
     }
   }
 
@@ -74,7 +74,7 @@ export const bodyGenerator = (
 
   if (!launchStatus.launchSucc && !launchStatus.launchFail) {
     body.query.success = {
-      "$in":[null]
+      "$in":[]
     }
   }
 
