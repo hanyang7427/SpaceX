@@ -6,5 +6,5 @@
 - yarn start
 
 ### expo link
-https://expo.dev/@hanyang7427/SpaceX?serviceType=classic&distribution=expo-go
 
+![Screenshot](expo_link.svg)
