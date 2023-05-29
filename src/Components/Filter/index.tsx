@@ -50,7 +50,7 @@ const Filter:React.FC<FilterProps> = ({
         <TextInput
           value={currentSearchText}
           onChangeText={(newSearchText)=>setSearchText(newSearchText)}
-          placeholder="输入launch名称以搜素"
+          placeholder="输入launch名称以搜索"
           style={styles.textInput}
         />
       </View>

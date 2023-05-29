@@ -31,10 +31,10 @@ const LaunchItem:React.FC<LaunchItemProps> = ({
       {/* 发射时间 */}
       <Text style={apply(commonStylesa.textS)}>{parseISODate(launch.date_utc)}</Text>
       {/* 发射名称 */}
-      <Text style={apply(commonStylesa.textS)}>{launch.name}</Text>
+      <Text style={apply(commonStylesa.textM)}>{launch.name}</Text>
       {/* 查看详情按钮 */}
       <TouchableOpacity
-        style={apply(commonStylesa.button)} 
+        style={apply(commonStylesa.button,"self-center")} 
         onPress={ ()=>navigation.navigate('LaunchDetail',{launch:launch}) }
       >
         <Text>查看详情</Text>

@@ -1,5 +1,8 @@
 {
   "expo": {
+    "androidStatusBar": {
+      "translucent": false
+    },
     "name": "SpaceX",
     "slug": "SpaceX",
     "version": "1.0.0",
@@ -21,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hanyang7427.SpaceX"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "10c8bfad-16d6-442c-b62c-db858b109f97"
+      }
     }
   }
 }

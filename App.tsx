@@ -14,7 +14,7 @@ export default function App() {
     <OsmiProvider>
       <NavigationContainer>
           <MainStackNavigation/>
-          <StatusBar style="auto" />
+          {/* <StatusBar style="auto" /> */}
       </NavigationContainer>
     </OsmiProvider>
   );

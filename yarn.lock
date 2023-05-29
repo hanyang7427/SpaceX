@@ -3293,10 +3293,6 @@ expo-asset@~8.9.1:
     path-browserify "^1.0.0"
     url-parse "^1.5.9"
 
-expo-av@~13.2.1:
-  version "13.2.1"
-  resolved "https://registry.npmmirror.com/expo-av/-/expo-av-13.2.1.tgz#ce502a4c5d4a57962fd9f5f1a40c76c39c88f5ee"
-
 expo-checkbox@~2.3.1:
   version "2.3.1"
   resolved "https://registry.npmmirror.com/expo-checkbox/-/expo-checkbox-2.3.1.tgz#d214e797a54f387f8ec360487272fefc0aa846a0"
@@ -3307,6 +3303,10 @@ expo-constants@~14.2.0, expo-constants@~14.2.1:
   dependencies:
     "@expo/config" "~8.0.0"
     uuid "^3.3.2"
+
+expo-eas-client@~0.5.0:
+  version "0.5.1"
+  resolved "https://registry.npmmirror.com/expo-eas-client/-/expo-eas-client-0.5.1.tgz#3ef80dbbde13abe35be4e2a2e29b73d2f7fdf27a"
 
 expo-file-system@~15.2.0, expo-file-system@~15.2.2:
   version "15.2.2"
@@ -3324,9 +3324,19 @@ expo-image@~1.0.1:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/expo-image/-/expo-image-1.0.1.tgz#0cc04fac8e5204fc0d4d86f30f26273c0b1dce08"
 
+expo-json-utils@~0.5.0:
+  version "0.5.1"
+  resolved "https://registry.npmmirror.com/expo-json-utils/-/expo-json-utils-0.5.1.tgz#fcb01050b8aa66592eea2024a48979f2d090c6f9"
+
 expo-keep-awake@~12.0.1:
   version "12.0.1"
   resolved "https://registry.npmmirror.com/expo-keep-awake/-/expo-keep-awake-12.0.1.tgz#19c5ab55391394ded3f6c262b0707c7140658a11"
+
+expo-manifests@~0.5.0:
+  version "0.5.2"
+  resolved "https://registry.npmmirror.com/expo-manifests/-/expo-manifests-0.5.2.tgz#60f91ad196cd5a37248c28c6f307df806c5a27ad"
+  dependencies:
+    expo-json-utils "~0.5.0"
 
 expo-modules-autolinking@1.2.0:
   version "1.2.0"
@@ -3348,6 +3358,30 @@ expo-modules-core@1.2.7:
 expo-status-bar@~1.4.4:
   version "1.4.4"
   resolved "https://registry.npmmirror.com/expo-status-bar/-/expo-status-bar-1.4.4.tgz#6874ccfda5a270d66f123a9f220735a76692d114"
+
+expo-structured-headers@~3.1.0:
+  version "3.1.1"
+  resolved "https://registry.npmmirror.com/expo-structured-headers/-/expo-structured-headers-3.1.1.tgz#198d44260f4b128d41313ef78df02fa6e20c5054"
+
+expo-updates-interface@~0.9.0:
+  version "0.9.1"
+  resolved "https://registry.npmmirror.com/expo-updates-interface/-/expo-updates-interface-0.9.1.tgz#e81308d551ed5a4c35c8770ac61434f6ca749610"
+
+expo-updates@~0.16.4:
+  version "0.16.4"
+  resolved "https://registry.npmmirror.com/expo-updates/-/expo-updates-0.16.4.tgz#6d05438cf7304add03645a598211ac4ef3cc4f64"
+  dependencies:
+    "@expo/code-signing-certificates" "0.0.5"
+    "@expo/config" "~8.0.0"
+    "@expo/config-plugins" "~6.0.0"
+    "@expo/metro-config" "~0.7.0"
+    arg "4.1.0"
+    expo-eas-client "~0.5.0"
+    expo-manifests "~0.5.0"
+    expo-structured-headers "~3.1.0"
+    expo-updates-interface "~0.9.0"
+    fbemitter "^3.0.0"
+    resolve-from "^5.0.0"
 
 expo@~48.0.15:
   version "48.0.17"
@@ -5426,7 +5460,7 @@ prompts@^2.3.2, prompts@^2.4.0:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@*, prop-types@^15.5.0, prop-types@^15.7.2:
+prop-types@*, prop-types@^15.7.2:
   version "15.8.1"
   resolved "https://registry.npmmirror.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   dependencies:
@@ -5574,12 +5608,6 @@ react-native-youtube-iframe@^2.2.2:
   resolved "https://registry.npmmirror.com/react-native-youtube-iframe/-/react-native-youtube-iframe-2.2.2.tgz#ade1a2e4ead3d539fbb80463f45b59ff1b510b55"
   dependencies:
     events "^3.2.0"
-
-react-native-youtube@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.npmmirror.com/react-native-youtube/-/react-native-youtube-2.0.2.tgz#e2ec457cccd6f8a904ea5a1efdf579ec3ff8b31e"
-  dependencies:
-    prop-types "^15.5.0"
 
 react-native@0.71.8:
   version "0.71.8"
